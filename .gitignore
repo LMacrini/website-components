@@ -11,6 +11,9 @@ deployer
 !.yarn/sdks
 !.yarn/versions
 
+#pagekite
+pagekite.py
+
 # Logs
 logs
 *.log

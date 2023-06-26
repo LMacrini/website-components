@@ -1519,6 +1519,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@googlemaps/js-api-loader@npm:1.15.1":
+  version: 1.15.1
+  resolution: "@googlemaps/js-api-loader@npm:1.15.1"
+  dependencies:
+    fast-deep-equal: ^3.1.3
+  checksum: 0f359c6703116eee926afcf044be419358aee0c34d597c394f5b543ab8b6fb19a90a631f9bcb22e457605edfa08b5f6a29856149e63c4c9305be848d913ec013
+  languageName: node
+  linkType: hard
+
+"@googlemaps/markerclusterer@npm:2.0.15":
+  version: 2.0.15
+  resolution: "@googlemaps/markerclusterer@npm:2.0.15"
+  dependencies:
+    fast-deep-equal: ^3.1.3
+    supercluster: ^7.1.3
+  checksum: bb3201212fe4e0d18a22979ad1aaf9796f958ddb5e2a8bc3aa4d2666ce8e81d70d05ebca7c1d8c85027775678d825408795ff34d925316f244e027dee9b0a883
+  languageName: node
+  linkType: hard
+
 "@headlessui/react@npm:^1.7.13":
   version: 1.7.14
   resolution: "@headlessui/react@npm:1.7.14"
@@ -1528,6 +1547,27 @@ __metadata:
     react: ^16 || ^17 || ^18
     react-dom: ^16 || ^17 || ^18
   checksum: 9122114d7a618877a8da2ada000422ce82e6af47195e414076fa5cf45687709479eb30b0df414eed52079be6e5904151bc92e4acfafbdde2592c608f015c490e
+  languageName: node
+  linkType: hard
+
+"@headlessui/react@npm:^1.7.3":
+  version: 1.7.15
+  resolution: "@headlessui/react@npm:1.7.15"
+  dependencies:
+    client-only: ^0.0.1
+  peerDependencies:
+    react: ^16 || ^17 || ^18
+    react-dom: ^16 || ^17 || ^18
+  checksum: f2d11d58499ddf1362a40d84d92b7db932adaccc3596f44f1eead642258280f124497f2b329cee6e04801818bb2e66c42d752ee05f40f8b5239c2f692128e568
+  languageName: node
+  linkType: hard
+
+"@heroicons/react@npm:^2.0.18":
+  version: 2.0.18
+  resolution: "@heroicons/react@npm:2.0.18"
+  peerDependencies:
+    react: ">= 16"
+  checksum: 597e8668818623d568a302e343ef06b69f62ce297c14b88c2ebbfed0c0f00cd85ec44fae33ec8a249931b4e7dcf145743ae3198095a9f4682108de5155f5f4c3
   languageName: node
   linkType: hard
 
@@ -1640,6 +1680,44 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@popperjs/core@npm:^2.10.1":
+  version: 2.11.8
+  resolution: "@popperjs/core@npm:2.11.8"
+  checksum: e5c69fdebf52a4012f6a1f14817ca8e9599cb1be73dd1387e1785e2ed5e5f0862ff817f420a87c7fc532add1f88a12e25aeb010ffcbdc98eace3d55ce2139cf0
+  languageName: node
+  linkType: hard
+
+"@react-google-maps/api@npm:^2.17.1":
+  version: 2.18.1
+  resolution: "@react-google-maps/api@npm:2.18.1"
+  dependencies:
+    "@googlemaps/js-api-loader": 1.15.1
+    "@googlemaps/markerclusterer": 2.0.15
+    "@react-google-maps/infobox": 2.16.0
+    "@react-google-maps/marker-clusterer": 2.16.1
+    "@types/google.maps": 3.50.5
+    invariant: 2.2.4
+  peerDependencies:
+    react: ^16.8 || ^17 || ^18
+    react-dom: ^16.8 || ^17 || ^18
+  checksum: ad665f8ce617615bdb5a92c14867a8796b9f86be6fafc7aa6685510b5618fc5e80ea3f0b0a92fcdea75662aefacc63b1cd69a98928f43b8d2af23894e8b33470
+  languageName: node
+  linkType: hard
+
+"@react-google-maps/infobox@npm:2.16.0":
+  version: 2.16.0
+  resolution: "@react-google-maps/infobox@npm:2.16.0"
+  checksum: ce2532d760f56d0eef99be38fda4867efffde31ee0ba9a27f4264e54bfce90d2034664f67c17a7fa11465b516f3c91f94e6d42f3bc7b7582e139b0b04fd16e0d
+  languageName: node
+  linkType: hard
+
+"@react-google-maps/marker-clusterer@npm:2.16.1":
+  version: 2.16.1
+  resolution: "@react-google-maps/marker-clusterer@npm:2.16.1"
+  checksum: 2b65cbe34b1e52c90bb0b175774e4296896064749b05a53344b21fd8c029d35228e0ea338bcefec97cc511505cc8b9b8ba579862b3ddd915c5f7260697509e27
+  languageName: node
+  linkType: hard
+
 "@tailwindcss/line-clamp@npm:^0.4.4":
   version: 0.4.4
   resolution: "@tailwindcss/line-clamp@npm:0.4.4"
@@ -1701,6 +1779,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/google.maps@npm:3.50.5":
+  version: 3.50.5
+  resolution: "@types/google.maps@npm:3.50.5"
+  checksum: 1754518ffc1719c2086834ee1cab45b4a2a0ec007f3d1101d46afda46d7ef96a989ab977333352a1c73c5267ce2e7bec7e5bfeb74146a723be746279c3ad086c
+  languageName: node
+  linkType: hard
+
 "@types/json-schema@npm:*, @types/json-schema@npm:^7.0.5, @types/json-schema@npm:^7.0.8":
   version: 7.0.11
   resolution: "@types/json-schema@npm:7.0.11"
@@ -1712,6 +1797,23 @@ __metadata:
   version: 18.15.10
   resolution: "@types/node@npm:18.15.10"
   checksum: 9aeae0b683eda82892def5315812bdee3f1a28c4898b7e70f8e2514564538b16c4dccbe8339c1266f8fc1d707a48f152689264a854f5ebc2eba5011e793612d9
+  languageName: node
+  linkType: hard
+
+"@uniwebcms/express@npm:^0.2.4":
+  version: 0.2.4
+  resolution: "@uniwebcms/express@npm:0.2.4"
+  dependencies:
+    "@headlessui/react": ^1.7.3
+    "@popperjs/core": ^2.10.1
+    "@react-google-maps/api": ^2.17.1
+    "@uniwebcms/module-sdk": ^1.5.1
+    react-icons: ^4.6.0
+    react-spinners: ^0.13.8
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: e777b63cc9a4364227b0886eeabf4ad1ea2b49f553ad5733b021ac5189fe1bed17d8d08f90d48d0bb2b6cc191edd220c9715ee54d95243fadf3a25d71bbf96ff
   languageName: node
   linkType: hard
 
@@ -1749,6 +1851,23 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
   checksum: fac7d71373367179bffc162e79115786ae3872d59531d1b6cae4dcfd175427f586620c5f3e6d129165fe3efe61cf2cdfb5c2a06d1a5908e035876cb8898c4000
+  languageName: node
+  linkType: hard
+
+"@uniwebcms/module-sdk@npm:^1.5.1":
+  version: 1.5.1
+  resolution: "@uniwebcms/module-sdk@npm:1.5.1"
+  dependencies:
+    "@headlessui/react": ^1.7.3
+    "@popperjs/core": ^2.10.1
+    "@react-google-maps/api": ^2.17.1
+    clsx: ^1.2.1
+    react-icons: ^4.6.0
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.4.2
+  checksum: 817cdcaaf1441f3b91df77f04c9b305cc56d4c85d474e905ac41a96cc7446843d6b80ffe700ddd6251d9c42289b405c519e5c828385c5b587554a59894aa2b2a
   languageName: node
   linkType: hard
 
@@ -2411,6 +2530,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clsx@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "clsx@npm:1.2.1"
+  checksum: 30befca8019b2eb7dbad38cff6266cf543091dae2825c856a62a8ccf2c3ab9c2907c4d12b288b73101196767f66812365400a227581484a05f968b0307cfaf12
+  languageName: node
+  linkType: hard
+
 "color-convert@npm:^1.9.0":
   version: 1.9.3
   resolution: "color-convert@npm:1.9.3"
@@ -2848,7 +2974,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-deep-equal@npm:^3.1.1":
+"fast-deep-equal@npm:^3.1.1, fast-deep-equal@npm:^3.1.3":
   version: 3.1.3
   resolution: "fast-deep-equal@npm:3.1.3"
   checksum: e21a9d8d84f53493b6aa15efc9cfd53dd5b714a1f23f67fb5dc8f574af80df889b3bce25dc081887c6d25457cce704e636395333abad896ccdec03abaf1f3f9d
@@ -3310,6 +3436,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"invariant@npm:2.2.4":
+  version: 2.2.4
+  resolution: "invariant@npm:2.2.4"
+  dependencies:
+    loose-envify: ^1.0.0
+  checksum: cc3182d793aad82a8d1f0af697b462939cb46066ec48bbf1707c150ad5fad6406137e91a262022c269702e01621f35ef60269f6c0d7fd178487959809acdfb14
+  languageName: node
+  linkType: hard
+
 "ip@npm:^2.0.0":
   version: 2.0.0
   resolution: "ip@npm:2.0.0"
@@ -3485,6 +3620,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"kdbush@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "kdbush@npm:3.0.0"
+  checksum: bc5fa433958e42664a8a92457e4f0d1db55b3b8e36956aac0102964adb2eab043bdbff156570dc8d867144ceff588fb7a1c6e099ba9be068cd1767a73e1ace92
+  languageName: node
+  linkType: hard
+
 "kind-of@npm:^6.0.2":
   version: 6.0.3
   resolution: "kind-of@npm:6.0.3"
@@ -3554,7 +3696,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.1.0":
+"loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -3595,8 +3737,9 @@ __metadata:
   resolution: "main-collection@workspace:src/MainCollection"
   dependencies:
     "@headlessui/react": ^1.7.13
+    "@heroicons/react": ^2.0.18
     "@tailwindcss/line-clamp": ^0.4.4
-    "@uniwebcms/module-sdk": ^1.0.1
+    "@uniwebcms/module-sdk": ^1.5.1
     react: ^18.2.0
     react-dom: ^18.2.0
     react-icons: ^4.6.0
@@ -4656,6 +4799,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-spinners@npm:^0.13.8":
+  version: 0.13.8
+  resolution: "react-spinners@npm:0.13.8"
+  peerDependencies:
+    react: ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: cb58f916bbf00c4f7fc33c1a75a8c0f91a98a42af26944340a0e29e4b3a97937a03f0292bc444eb5f5f0bea099344b580f9c04a81524246dadbf0571bdb57e62
+  languageName: node
+  linkType: hard
+
 "react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
@@ -5157,6 +5310,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"supercluster@npm:^7.1.3":
+  version: 7.1.5
+  resolution: "supercluster@npm:7.1.5"
+  dependencies:
+    kdbush: ^3.0.0
+  checksum: 69863238870093b96617135884721b6343746e14f396b2d67d6b55c52c362ec0516c5e386aa21815e75a9cef2054e831ac34023d0d8b600091d28cea0794f027
+  languageName: node
+  linkType: hard
+
 "supports-color@npm:^5.3.0":
   version: 5.5.0
   resolution: "supports-color@npm:5.5.0"
@@ -5502,6 +5664,9 @@ __metadata:
 "website-components-template@workspace:.":
   version: 0.0.0-use.local
   resolution: "website-components-template@workspace:."
+  dependencies:
+    "@uniwebcms/express": ^0.2.4
+    "@uniwebcms/module-sdk": ^1.5.1
   languageName: unknown
   linkType: soft
 

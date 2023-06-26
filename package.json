@@ -19,5 +19,9 @@
         "serve": "cd server && yarn run serve",
         "mkt": "module=MarketingWebsite yarn build:dev",
         "mkt:prod": "module=MarketingWebsite yarn build:prod"
+    },
+    "dependencies": {
+        "@uniwebcms/express": "^0.2.4",
+        "@uniwebcms/module-sdk": "^1.5.1"
     }
 }
