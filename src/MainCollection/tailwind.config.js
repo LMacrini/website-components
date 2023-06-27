@@ -1,5 +1,5 @@
 module.exports = {
-    content: ['../*.{js,jsx}', '../**/*.js'],
-    theme: {},
-    plugins: [require('@tailwindcss/line-clamp')],
+  content: ["../*.{js,jsx}", "../**/*.js"],
+  theme: {},
+  plugins: [require("@tailwindcss/line-clamp"), require("@tailwindcss/forms")],
 };

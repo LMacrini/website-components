@@ -1718,6 +1718,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tailwindcss/forms@npm:^0.5.3":
+  version: 0.5.3
+  resolution: "@tailwindcss/forms@npm:0.5.3"
+  dependencies:
+    mini-svg-data-uri: ^1.2.3
+  peerDependencies:
+    tailwindcss: ">=3.0.0 || >= 3.0.0-alpha.1"
+  checksum: 9eddb4dbd06d01b1068138ff52a54ed0e35a28e7bfd3c72e226fc28658ecd92a9c078c4abe9c83db090984672040644d7ae2e035933fb619dd703df1d87aa275
+  languageName: node
+  linkType: hard
+
 "@tailwindcss/line-clamp@npm:^0.4.4":
   version: 0.4.4
   resolution: "@tailwindcss/line-clamp@npm:0.4.4"
@@ -3738,6 +3749,7 @@ __metadata:
   dependencies:
     "@headlessui/react": ^1.7.13
     "@heroicons/react": ^2.0.18
+    "@tailwindcss/forms": ^0.5.3
     "@tailwindcss/line-clamp": ^0.4.4
     "@uniwebcms/module-sdk": ^1.5.1
     react: ^18.2.0
@@ -3829,6 +3841,15 @@ __metadata:
   bin:
     mime: cli.js
   checksum: fef25e39263e6d207580bdc629f8872a3f9772c923c7f8c7e793175cee22777bbe8bba95e5d509a40aaa292d8974514ce634ae35769faa45f22d17edda5e8557
+  languageName: node
+  linkType: hard
+
+"mini-svg-data-uri@npm:^1.2.3":
+  version: 1.4.4
+  resolution: "mini-svg-data-uri@npm:1.4.4"
+  bin:
+    mini-svg-data-uri: cli.js
+  checksum: 997f1fbd8d59a70f03761e18626d335197a3479cb9d1ff75678e4b64b864d32a0b8fc18115eabde035e5299b8b4a354a78e57dd6ac10f9d604162a6170898d09
   languageName: node
   linkType: hard
 

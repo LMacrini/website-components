@@ -4,9 +4,11 @@ import { Image } from "@uniwebcms/module-sdk";
 export default ({ block, profile, page }) => {
   // console.log('Congrats, the setup is successful!');
   // console.log('Props received are: ', props);
-  // const { block, profile, website } = props;
+  //   const { block, profile, website } = props;
   const l2 =
     profile.activeLang == "fr" ? "langue actuelle" : "current language";
+
+  //   console.log(block);
 
   // console.log(website.docufolio.template);
   //   console.log(block);

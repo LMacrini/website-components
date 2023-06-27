@@ -2,7 +2,7 @@ import React from "react";
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/20/solid";
 
 export default ({ block }) => {
-  console.log(block);
+  //   console.log(block);
   const person = {
     name: block.main.body.paragraphs[0],
     title: block.main.body.paragraphs[1],

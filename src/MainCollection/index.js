@@ -13,6 +13,7 @@ const Switch = React.lazy(() => import("./components/Switch"));
 const GridList = React.lazy(() => import("./components/GridList"));
 const GridList2 = React.lazy(() => import("./components/GridList2"));
 const Person = React.lazy(() => import("./components/Person"));
+const Tabs = React.lazy(() => import("./components/Tabs"));
 
 export default {
   Navbar,
@@ -27,4 +28,5 @@ export default {
   GridList,
   GridList2,
   Person,
+  Tabs,
 };
