@@ -1,8 +1,6 @@
 import React, { cloneElement } from "react";
 
 export default ({ children }) => {
-  console.log(children);
-
   return (
     <ul
       role="list"

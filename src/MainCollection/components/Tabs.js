@@ -21,14 +21,16 @@ function Tab({ name, value, onTabClick }) {
   );
 }
 
-export default function Example({ children }) {
+export default function Example(props) {
+  let { children, block } = props;
+
   const [tabsState, setTabsState] = useState(0);
 
   function handleClick(i) {
     setTabsState(i);
   }
-  const tabs = Array.from(children.props.blocks);
-  console.log(Children.toArray(children));
+  const tabs = block.childBlocks;
+  console.log(props);
 
   return (
     <>
@@ -41,10 +43,10 @@ export default function Example({ children }) {
             id="tabs"
             name="tabs"
             className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
-            defaultValue={tabs[0][1].title}
+            defaultValue={tabs[0].title}
           >
             {tabs.map((tab) => (
-              <option key={tab[1].title}>{tab[1].title}</option>
+              <option key={tab.title}>{tab.title}</option>
             ))}
           </select>
         </div>
@@ -52,7 +54,7 @@ export default function Example({ children }) {
           <nav className="flex space-x-4" aria-label="Tabs">
             {tabs.map((tab, index) => (
               <Tab
-                name={tab[1].title}
+                name={tab.title}
                 value={tabsState === index}
                 onTabClick={() => handleClick(index)}
               />
@@ -60,7 +62,7 @@ export default function Example({ children }) {
           </nav>
         </div>
       </div>
-      <div>{children}</div>
+      <div>{children[tabsState]}</div>
     </>
   );
 }
