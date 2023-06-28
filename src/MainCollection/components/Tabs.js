@@ -30,7 +30,6 @@ export default function Example(props) {
     setTabsState(i);
   }
   const tabs = block.childBlocks;
-  console.log(props);
 
   return (
     <>
