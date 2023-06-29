@@ -16,6 +16,7 @@ const Person = React.lazy(() => import("./components/Person"));
 const Tabs = React.lazy(() => import("./components/Tabs"));
 const Alert = React.lazy(() => import("./components/Alert"));
 const Container = React.lazy(() => import("./components/Container"));
+const Header = React.lazy(() => import("./components/Header"));
 
 export default {
   Navbar,
@@ -33,4 +34,5 @@ export default {
   Tabs,
   Alert,
   Container,
+  Header,
 };

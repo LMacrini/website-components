@@ -1,8 +1,9 @@
 import React from "react";
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/20/solid";
 
-export default ({ block }) => {
-  //   console.log(block);
+export default (props) => {
+  // console.log(props);
+  const { block } = props;
   const people = block.items.map(({ body: { paragraphs } }) => {
     return {
       name: paragraphs[0],

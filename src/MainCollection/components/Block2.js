@@ -26,7 +26,9 @@ export default ({ block, profile, page }) => {
         {l2} = {profile.activeLang}
       </p>
       {/* <p>{ block.main.banner.value }</p> */}
-      <Image value={block.main.banner.value} profile={doc} className="w-72" />
+      <div className="w-320">
+        <Image value={block.main.banner.value} profile={doc} className="w-72" />
+      </div>
       {block.main.body.paragraphs.map((text) => (
         <p>{text}</p>
       ))}
